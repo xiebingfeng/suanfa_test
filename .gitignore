@@ -1,0 +1,17 @@
+*.ap_
+*.dex
+*.class
+/build
+*/build
+proguard/
+*.log
+.navigation/
+captures/
+*.iml
+.DS_Store
+.idea
+/captures
+/gradle
+/gradlew
+/gradlew.bat
+*.properties
