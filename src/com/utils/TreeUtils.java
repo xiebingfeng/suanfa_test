@@ -13,8 +13,11 @@ public class TreeUtils {
     public static TreeNode buildTree() {
 //        int[] preorder = new int[]{3, 9, 20, 15, 7, 6};
 //        int[] inorder = new int[]{9, 3, 15, 20, 7, 6};
-        int[] preorder = new int[]{3, 9, 20, 15, 7};
-        int[] inorder = new int[]{9, 3, 15, 20, 7};
+//        int[] preorder = new int[]{3, 9, 20, 15, 7};
+//        int[] inorder = new int[]{9, 3, 15, 20, 7};
+
+        int[] preorder = new int[]{3, 9, 8, 1, 7, 6};
+        int[] inorder = new int[]{9, 3, 1, 8, 7, 6};
 
         return buildTree(preorder, inorder);
     }

@@ -15,3 +15,5 @@ captures/
 /gradlew
 /gradlew.bat
 *.properties
+/out
+*.class
